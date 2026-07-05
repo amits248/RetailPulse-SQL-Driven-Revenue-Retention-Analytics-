@@ -181,14 +181,3 @@ because the customer base itself is compounding over that period (this is a
 generation artifact of a fixed-length demo, not a claimed real-world growth
 rate), which is why the write-up above leans on ratios, segment splits, and
 retention rates rather than a headline revenue-growth number.
-
-## Possible extensions
-
-- Swap SQLite for Postgres and add a `dbt` layer for the transformation logic
-- Add a `sessions`/`events` table for funnel analysis (view → cart → purchase)
-- Materialized views for the RFM and cohort queries, refreshed on a schedule
-- A small Streamlit dashboard on top of `results/*.csv`
-
-## License
-
-MIT — see `LICENSE`.
